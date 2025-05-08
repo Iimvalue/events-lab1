@@ -35,6 +35,6 @@ changeBColor.addEventListener("click", () => {
 });
 
 randomImage.addEventListener("click", () => {
-  image.src =
-    "https://images.pexels.com/photos/29872205/pexels-photo-29872205/free-photo-of-tranquil-beach-sunset-with-silhouetted-boat.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load";
+  image.src = arrayImage[Math.floor(Math.random() * arrayImage.length)]
+    
 });
